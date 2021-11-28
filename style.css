@@ -19,7 +19,7 @@ body {
 .container {
     display: grid;
     place-items: center;
-    width: 80vw;
+    width: 60vw;
     margin: 50px auto;
 }
 
@@ -44,14 +44,14 @@ body {
     justify-content: space-between;
     background-color: white;
     padding: 5px;
-    margin: 5px;
-    
-  
+    margin: 5px; 
 }
+
 .content {
     border-top: 1px solid gray;
     padding: 10px;
 }
+
 .btns {
     display: flex;
     flex-direction: column;
@@ -61,6 +61,20 @@ body {
 .btns i {
     color: #C6A063;
 }
-.content, .minusBtn {
+
+.minusBtn {
     display: none;
 }
+
+.content {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.show-minus {
+    display: inline;
+}
+
