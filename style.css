@@ -70,11 +70,15 @@ body {
     display: none;
 }
 
-.show-content {
+.show-content .content {
     display: block;
 }
 
-.show-minus {
+.minusBtn .show-content {
     display: inline;
+}
+
+.show-content .plusBtn {
+    display: none;
 }
 
