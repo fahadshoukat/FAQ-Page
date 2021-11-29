@@ -62,10 +62,6 @@ body {
     color: #C6A063;
 }
 
-.minusBtn {
-    display: none;
-}
-
 .content {
     display: none;
 }
@@ -74,7 +70,11 @@ body {
     display: block;
 }
 
-.minusBtn .show-content {
+.minusBtn {
+    display: none;
+}
+
+.show-content .minusBtn {
     display: inline;
 }
 
